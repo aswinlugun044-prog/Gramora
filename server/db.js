@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 async function connectMongo() {
 
     try{
-       await mongoose.connect("mongodb+srv://<gramora>:<IrA2B4djH13lLx82>@cluster0.pp5azx6.mongodb.net/krishisetu?appName=Cluster0"),{
+       await mongoose.connect("mongodb+srv://gramora:eIid94yJbFqIP0iN@cluster0.fyvzwlp.mongodb.net/?appName=Cluster0"),{
 
             useNewUrlparser:true,
             useUnifiedTopology:true
